@@ -1,0 +1,23 @@
+if SHIELD_DACTYL_CMD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "dm-cmd-left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DACTYL_CMD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "dm-cmd-right"
+
+endif
+
+if SHIELD_DACTYL_CMD_LEFT || SHIELD_DACTYL_CMD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
