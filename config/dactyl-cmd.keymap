@@ -20,7 +20,7 @@
  // [  TAB  ][ Q    ][  W    ][   E   ][  R     ][   T     ][   [   ]     [   ]     ][   Y         ][  U      ][  I     ][  O       ][   P      ][   \   ]
  // [ SHIFT ][ A    ][  S    ][   D   ][  F     ][   G     ][   (   ]     [   )     ][   H         ][  J      ][  K     ][  L       ][   ;      ][   '   ]
  // [  CTRL ][ Z    ][  X    ][   C   ][  V     ][   B     ]                         [   N         ][  M      ][  ,     ][  .       ][   /      ][ ENTER ]
- // [  ALT  ][ GUI  ][  1u   ][   1u  ][  BSPC  ][  SPACE  ]                         [   SPACE     ][  DEL    ][  1u    ][  1u      ][   CAPS   ][   1u  ]
+ // [  ALT  ][ GUI  ][  1u   ][   1u  ][  SPACE ][  BSPC   ]                         [   SPACE     ][  DEL    ][  1u    ][  1u      ][   CAPS   ][   1u  ]
  //                           [ LOWER ][  UNDO  ][  ENTER  ][ RAISE ]     [  RAISE  ][   KP_ENTR   ][  REDO   ][  LOWER ]
  //
              bindings = <
@@ -28,7 +28,7 @@
  &kp TAB    &kp Q     &kp W    &kp E     &kp R       &kp T     &kp LBKT         &kp RBKT   &kp Y         &kp U      &kp I     &kp O       &kp P       &kp BSLH
  &kp LSHFT  &kp A     &kp S    &kp D     &kp F       &kp G     &kp LPAR         &kp RPAR   &kp H         &kp J      &kp K     &kp L       &kp SEMI    &kp SQT
  &kp LCTRL  &kp Z     &kp X    &kp C     &kp V       &kp B                                 &kp N         &kp M      &kp COMMA &kp DOT     &kp FSLH    &kp ENTER
- &kp LALT   &kp LMETA &kp X    &kp C     &kp BSPC    &kp SPACE                             &kp SPACE     &kp M      &kp COMMA &kp DOT     &kp FSLH    &kp ENTER
+ &kp LALT   &kp LMETA &kp X    &kp C     &kp SPACE   &kp BSPC                              &kp DEL       &kp SPACE  &kp COMMA &kp DOT     &kp CAPS    &kp ENTER
                                &mo 1     &kp K_UNDO  &kp ENTER &mo 2            &mo 2      &kp KP_ENTER  &kp K_REDO &mo 1
              >;
 
